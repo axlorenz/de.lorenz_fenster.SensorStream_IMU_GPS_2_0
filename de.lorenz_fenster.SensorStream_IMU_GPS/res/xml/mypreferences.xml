@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <EditTextPreference android:title="192.168.0.1" android:key="ip_adress" android:defaultValue="192.168.0.1" android:enabled="true"/>
+    <EditTextPreference android:title="4444" android:key="port" android:defaultValue="4444" android:enabled="true"/>
+    <ListPreference android:title="0" android:key="radiogroup" android:defaultValue="0" android:enabled="true" />
+    <ListPreference android:title="2" android:key="spinner" android:defaultValue="2" android:enabled="true" />
+    <CheckBoxPreference android:title="0" android:key="gps" android:defaultValue="0" android:enabled="true" />
+    <CheckBoxPreference android:title="0" android:key="ori" android:defaultValue="0" android:enabled="true" />
+    <CheckBoxPreference android:title="0" android:key="lin" android:defaultValue="0" android:enabled="true" />
+  	<CheckBoxPreference android:title="0" android:key="gra" android:defaultValue="0" android:enabled="true" />
+    <CheckBoxPreference android:title="0" android:key="rot" android:defaultValue="0" android:enabled="true" />
+    <CheckBoxPreference android:title="0" android:key="pre" android:defaultValue="0" android:enabled="true" />
+    <CheckBoxPreference android:title="0" android:key="bat" android:defaultValue="0" android:enabled="true" />
+
+</PreferenceScreen>
